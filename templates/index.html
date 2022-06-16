@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <body style="background-color:grey;">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CW0LPYSEYK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CW0LPYSEYK');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <style>
+.heading{
+  text-align: center;
+}
+.general{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+  /* height: 100%;
+ align-items: center; */
+}
+.pitch-container{
+  padding: 1rem 3rem;
+}
+.groups{
+  background: green;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.tournament{
+  display: flex;
+  flex-direction: column;
+
+}
+.team-one, .team-two{
+background: white;
+border: 1px solid green;
+}
+
+h5{
+  color: white;
+}
+.second-round{
+  margin-top: 10rem;
+}
+
+.third-round{
+  margin-top: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 55rem;
+}
+img{
+  width: 3rem;
+}
+p{
+  margin:0rem;
+}
+.last-group{
+    margin-top: 65rem;
+}
+.winner{
+  margin-top: 70rem;
+}
+.last-team{
+border: 2px solid white;
+text-align: center;
+    background: green;
+    color: white;
+}
+    </style>
+    
+  
+</head>
+
+<body>
+  
+  
+<div class="pitch-container">
+  <h2 class="heading">  FOOTBALL ⚽️⚽️⚽️⚽️ GAME</h2>
+
+  
+  
+  <div>
+    <!-- <h3>Team</h3> -->
+<div class="general">
+    <div>
+      <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 1</h5>
+        <h5>{{r1m1_winner}} WON BY 2 ⚽️ TO 0</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m1[0]}}.png" width="100">
+            <br>{{ matchr1m1[0]}}</br>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m1[1]}}.png" width="100">
+            <br>{{ matchr1m1[1]}}</br>
+          </div>
+        </div>
+      </div>
+    <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 2</h5>
+        <h5>{{r1m2_winner}} WON BY 1 ⚽️ TO 0</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m2[0]}}.png" width="100">
+            <p><br>{{ matchr1m2[0]}}</br></p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m2[1]}}.png" width="100">
+            <p><br>{{ matchr1m2[1]}}</br></p>
+          </div>
+        </div>
+      </div>
+    <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 3</h5>
+        <h5>{{r1m3_winner}} WON BY 2 ⚽️ TO 1</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m3[0]}}.png" width="100">
+            <p><br>{{ matchr1m3[0]}}</br></p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m3[1]}}.png" width="100">
+            <p><br>{{ matchr1m3[1]}}</br></p>
+          </div>
+        </div>
+      </div>
+      <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 4</h5>
+        <h5>{{r1m4_winner}} WON BY 5 ⚽️ TO 1</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m4[0]}}.png" width="100">
+            <p><br>{{ matchr1m4[0]}}</br></p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m4[1]}}.png" width="100">
+            <p><br>{{ matchr1m4[1]}}</br></p>
+          </div>
+        </div>
+      </div>
+       <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 5</h5>
+        <h5>{{r1m5_winner}} WON BY 6 ⚽️ TO 4</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m5[0]}}.png" width="100">
+            <p><br>{{ matchr1m5[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m5[1]}}.png" width="100">
+            <p><br>{{ matchr1m5[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+       <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 6</h5>
+        <h5>{{r1m6_winner}} WON BY 8 ⚽️ TO 4</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m6[0]}}.png" width="100">
+            <p><br>{{ matchr1m6[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m6[1]}}.png" width="100">
+            <p><br>{{ matchr1m6[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+       <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 7</h5>
+        <h5>{{r1m7_winner}} WON BY 4 ⚽️ TO 3</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m7[0]}}.png" width="100">
+            <p><br>{{ matchr1m7[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m7[1]}}.png" width="100">
+            <p><br>{{ matchr1m7[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+       <div class="groups">
+        <h5>ROUND 1 ⚽️MATCH 8</h5>
+        <h5>{{r1m8_winner}} WON BY 1 ⚽️ TO 0</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr1m8[0]}}.png" width="100">
+            <p><br>{{ matchr1m8[0]}}</br></p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr1m8[1]}}.png" width="100">
+            <p><br>{{ matchr1m8[1]}}</br></p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+<div class="second-round">
+ <div class="groups">
+        <h5>ROUND 2 ⚽️MATCH 1</h5>
+        <h5>{{r2m1_winner}} WON BY 9 ⚽️ TO 6</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr2m1[0]}}.png" width="100">
+            <p><br>{{ matchr2m1[0]}}</br></p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr2m1[1]}}.png" width="100">
+            <p><br>{{ matchr2m1[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+    <div class="groups" style="margin-top:25rem;">
+        <h5>ROUND 2 ⚽️MATCH 2</h5>
+        <h5>{{r2m2_winner}} WON BY 3 ⚽️ TO 1</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr2m2[0]}}.png" width="100">
+            <p><br>{{ matchr2m2[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr2m2[1]}}.png" width="100">
+            <p><br>{{ matchr2m2[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+    <div class="groups" style="margin-top:20rem;">
+        <h5>ROUND 2 ⚽️MATCH 3</h5>
+        <h5>{{r2m3_winner}} WON BY 1 ⚽️ TO 0</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr2m2[0]}}.png" width="100">
+            <p><br>{{ matchr2m3[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr2m3[1]}}.png" width="100">
+            <p><br>{{ matchr2m3[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+      <div class="groups" style="margin-top:25rem;">
+        <h5>ROUND 2 ⚽️MATCH 4</h5>
+        <h5>{{r2m4_winner}} WON BY 2 ⚽️ TO 0</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr2m4[0]}}.png" width="100">
+            <p><br>{{ matchr2m4[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr2m4[1]}}.png" width="100">
+            <p><br>{{ matchr2m4[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="third-round">
+  <div class="groups">
+        <h5>ROUND 3 ⚽️MATCH 1</h5>
+        <h5>{{r3m1_winner}} WON BY 5 ⚽️ TO 2</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr3m1[0]}}.png" width="100">
+            <p><br>{{ matchr3m1[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr3m1[1]}}.png" width="100">
+            <p><br>{{ matchr3m1[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="groups">
+        <h5>ROUND 3 ⚽️MATCH 2</h5>
+        <h5>{{r3m2_winner}} WON BY 3 ⚽️ TO 2</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr3m2[0]}}.png" width="100">
+            <p><br>{{ matchr3m2[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr3m2[1]}}.png" width="100">
+            <p><br>{{ matchr3m2[1]}}</br> </p>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="last-group">
+   <div class="groups">
+        <h5>FINAL ⚽️ MATCH</h5>
+        <h5>{{r4m1_winner}} WON BY 3 ⚽️ TO 0</h5>
+        <div class="tournament">
+          <div class="team-one">
+            <img src="https://robohash.org/{{matchr4m1[0]}}.png" width="100">
+            <p><br>{{ matchr4m1[0]}}</br> </p>
+            </div>
+          <div class="team-two">
+            <img src="https://robohash.org/{{matchr4m1[1]}}.png" width="100">
+            <p><br>{{ matchr4m1[1]}}</br></p>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="winner">
+  <div class="last-team">
+            <img src="https://robohash.org/{{r4m1_winner}}.png" width="50">
+            <p><br>{{r4m1_winner}}</br></p>
+     <p><br>STAND UP FOR THE CHAMPION 🏆{{r4m1_winner}}🍾</br> </p>
+  </div>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+</div>
+<center>
+  <div id="logo">
+							<span class="image avatar48"><img src="https://i.gifer.com/DeAB.gif" alt="" /></span>
+
+
+  
+  
+</body>
+
+                            
+                                    
+                           
+        </div>
+    </section>
+    
+    </footer>
+
+<nav id="nav">
+						
+                <a href="https://assignment-3-robot-game.goodnewsagbadu.repl.co" id="Home"><button>PLAY ⚽️AGAIN⚾️</span></a>
+                <br>
+							<a href="/" id="Home"></span></a>
+                
+					
+						</nav>
+
+				</div>
+
+    
+</body>
+
+</html>
